@@ -1,7 +1,49 @@
+/* :root {
+  background: purple;
+}
+
+
 html {
   max-width: 720px;
 }
 
 body {
   background: #fff;
+}
+
+* {
+  color: red;
+}
+
+h1 {
+ color: rgb(116, 205, 52);
+}
+
+.box {
+  background: #585353;
+}
+
+#user {
+  color: blue;
+}
+
+div > p {
+  color: paleturquoise;
+} */
+
+
+.card-dark {
+  background: #c7c3c3;
+}
+
+.item {
+  color: green;
+}
+
+.item:last-child {
+  color: blue;
+}
+
+* {
+  font-family: roboto;
 }
