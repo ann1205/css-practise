@@ -550,6 +550,9 @@ router.get('/template-4', function (req, res) {
 
   //            ↙ cюди вводимо назву файлу з сontainer
   res.render('template-4', {
+
+    layout: 'template-4',
+
     page: {
       title: "Example Page"
     },
@@ -571,7 +574,7 @@ router.get('/template-4', function (req, res) {
 
     main: {
       heading: "Oh yeah, it’s that good. See for yourself.",
-      descriotion: "Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.",
+      description: "Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.",
       image: "https://picsum.photos/500/500",
       button: "View details",
       href: "https://example.com/",
