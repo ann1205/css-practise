@@ -1,0 +1,14 @@
+{{#with data}}
+    <div class="feedback_header">
+        <strong class="feedbacks_title">{{title}}</strong>
+        <badge class="feedback_badge">{{badge}}</badge>
+    </div>
+    <div class="feedback_card">       
+        {{#each list}}
+            <div class="feedback_item">
+                <strong class="feedback_user">{{name}}</strong>
+                <p class="feedback_info">{{details}}</p>
+            </div>
+        {{/each}}
+    </div> 
+{{/with}}
